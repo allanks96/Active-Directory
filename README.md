@@ -39,7 +39,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src=/><img width="1433" alt="created 2 vm's" src="https://github.com/user-attachments/assets/b5a27305-55fd-4c3f-99a7-894795f90652">
+<img width="1433" alt="created 2 vm's" src="https://github.com/user-attachments/assets/b5a27305-55fd-4c3f-99a7-894795f90652">
 
 </p>
 <p>
