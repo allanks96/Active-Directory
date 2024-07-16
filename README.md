@@ -52,7 +52,7 @@ Created two VM's in Azure. The first being the "Domain Controller" and the secon
 
 </p>
 <p>
-Change the virtual NIC on the domain controller from dynamic to static so the IP address stays the same.
+Changed the virtual NIC on the domain controller from dynamic to static so the IP address stays the same.
 </p>
 <br />
 
@@ -70,7 +70,7 @@ Opened up the firewall in the domain controller to allow ICMP
 
 </p>
 <p>
-Went to server manager on domain controller > clicked add on roles and features > Selected active directory domain services > installed > created a domain name > Installed > let computer refresh then log back in to the domain controller with the new doman
+Went to server manager on domain controller > clicked add on roles and features > Selected active directory domain services > installed > created a domain name > Installed > let computer refresh then log back in to the domain controller with the new domain
 </p>
 <br />
 
@@ -88,7 +88,7 @@ Created an official Admin user account to simulate admin personnel with the orga
 
 </p>
 <p>
-Restart client VM > Get private IP address from domain controller > Go to client network settings in Azure > DNS settings > custom > Paste domain controller private NIC IP address
+Restarted client VM > Got private IP address from domain controller > Went to client network settings in Azure > DNS settings > custom > Pasted domain controller private NIC IP address
 </p>
 <br />
 
