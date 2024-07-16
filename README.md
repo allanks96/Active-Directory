@@ -21,20 +21,20 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1: Created two VM's in Azure. The first being the "Domain Controller" and the second being the "Client User".
-- Step 2: Change the virtual NIC on the domain controller from dynamic to static so the IP address stays the same.
-- Step 3: Ping from client 1 to test connectivity to domain controller with perpetual ping "-T"
+- Step 2: Changed the virtual NIC on the domain controller from dynamic to static so the IP address stays the same.
+- Step 3: Pinged from client 1 to test connectivity to domain controller with perpetual ping "-T"
 - Step 4: Opened up the firewall in the domain controller to allow ICMP
 - Step 5: Went to server manager on domain controller > clicked add on roles and features > Selected active directory domain services > installed > created a domain name > Installed > let computer refresh then log back in to the domain controller with the new doman specific prefix followed by \ (username)
-- Step 6: Open my domain inside of users and comupters in AD and create two folders "_EMPLOYEES" and "_ADMINS" 
+- Step 6: Opened my domain inside of users and comupters in AD and create two folders "_EMPLOYEES" and "_ADMINS" 
 - Step 7: Created an official Admin user account to simulate admin personnel with the organization
 - Step 8: Added user to the domain admin group
 - Step 9: Logged out and logged back in as the admin user
 - Step 10: Logged into client computer and renamed it to the domain of the domain controller. Settings > system > Rename this PC > click domain
-- Step 11: Restart client VM > Get private IP address from domain controller > Go to client network settings > DNS settings > custom > Paste domain controller private NIC IP address
-- Step 12: Join the domain on client computer with an admin account that was created
-- Step 13: Add domain users as people to remote into desktop
+- Step 11: Restarted client VM > Got private IP address from domain controller > went to client network settings > DNS settings > custom > Pasted domain controller private NIC IP address
+- Step 12: Joined the domain on client computer with an admin account that was created
+- Step 13: Added domain users as people to remote into desktop
 - Step 14: Copied code into powershell (admin) to creaate multiple user profiles at once
-- Step 15: Login into client computers with any user with the domain specific username "mydomain.com\(user)" 
+- Step 15: Logged into client computers with any user with the domain specific username "mydomain.com\(user)" 
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -106,7 +106,7 @@ Logged into client computer and renamed it to the domain of the domain controlle
 
 </p>
 <p>
-Add domain users as people to remote into desktop
+Added domain users as people to remote into desktop
 </p>
 <br />
 
