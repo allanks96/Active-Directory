@@ -1,6 +1,5 @@
 <p align="center">
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
-
 </p>
 
 <h1>Active Directory Deployed in the Cloud (Azure)</h1>
@@ -21,10 +20,26 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1: Created two VM's in Azure. The first being the "Domain Controller" and the second being the "Client User".
+- Step 2: Change the virtual NIC on the domain controller from dynamic to static so the IP address stays the same.
+- Step 3: Ping from client 1 to test connectivity to domain controller with perpetual ping "-T"
+- Step 4: Opened up the firewall in the domain controller to allow ICMP
+- Step 5: Went to server manager clicked add on roles and features > 
+- Step :
+- Step :
+- Step :
+- Step :
+- Step :
+- Step :
+- Step :
+- Step :
+- Step :
+- Step :
+- Step :
+- Step :
+- Step :
+- Step :
+- Step :
 
 <h2>Deployment and Configuration Steps</h2>
 
